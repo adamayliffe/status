@@ -15,8 +15,8 @@ function checkWebsiteStatus(url, elementId) {
 
     // Check website statuses periodically (every 5 seconds)
     setInterval(function() {
-      checkWebsiteStatus("https://www.google.com/", "monitor1");
-      checkWebsiteStatus("https://uk.yahoo.com/", "monitor2");
+      checkWebsiteStatus("https://adamayliffe.github.io/adam_me/", "monitor1");
+      checkWebsiteStatus("https://adamayliffe.github.io/how-to-network/", "monitor2");
       checkWebsiteStatus("https://www.testing1.com", "monitor3");
       // Add more websites to check as needed
     }, 5000);
